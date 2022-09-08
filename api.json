@@ -3,36 +3,54 @@
       "precio": 1900,
       "id": 1,
       "title": "Huggies",
-      "thumbnailUrl": "https://picsum.photos/id/0/600"
+      "url": "img/huggies.jpg"
     },
     {
       "precio": 2500,
       "id": 2,
       "title": "Pampers",
-      "thumbnailUrl": "https://picsum.photos/id/10/600"
+      "url": "img/pampers.jpg"
     },
     {
       "precio": 1100,
       "id": 3,
       "title": "Babysec",
-      "thumbnailUrl": "https://picsum.photos/id/20/600"
+      "url": "img/babysec.jpg"
     },
     {
       "precio": 1450,
       "id": 4,
       "title": "Estrella",
-      "thumbnailUrl": "https://picsum.photos/id/30/600"
+      "url": "img/estrella.jpg"
     },
     {
       "precio": 1000,
       "id": 5,
       "title": "Duffy",
-      "thumbnailUrl": "https://picsum.photos/id/40/600"
+      "url": "img/duffy.jpg"
     },
     {
       "precio": 2600,
       "id": 6,
       "title": "Avent",
-      "thumbnailUrl": "https://picsum.photos/id/50/600"
+      "url": "img/avent.jpg"
+    },
+    {
+      "precio": 350,
+      "id": 7,
+      "title": "Protector Mamario",
+      "url": "img/protector.jpg"
+    },
+    {
+      "precio": 55000,
+      "id": 8,
+      "title": "Cochesito Mega Baby",
+      "url": "img/cochesito.jpg"
+    },
+    {
+      "precio": 5500,
+      "id": 9,
+      "title": "Nutrilon 3",
+      "url": "img/nutrilon.png"
     }
   ]

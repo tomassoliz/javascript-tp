@@ -10,7 +10,7 @@ const fragment = document.createDocumentFragment()
 
 document.addEventListener('DOMContentLoaded', () => {
     fetchData()
-    if (localStorage.getItem('carrito')){
+    if (localStorage.getItem('carrito')) {
         carrito = JSON.perse(localStorage.getItem('carrito'))
         pintarCarrito()
     }
@@ -24,6 +24,9 @@ cards.addEventListener('click', e => {
 items.addEventListener('click', e =>{
     btnAccion(e)
 })
+
+
+// fetch 
 
 const fetchData = async () => {
     try{
@@ -41,7 +44,7 @@ const pintarCards = data  => {
     data.forEach(producto => {
         templateCard.querySelector('h5').textContent = producto.title
         templateCard.querySelector('p').textContent = producto.precio
-        templateCard.querySelector('img').setAttribute("src", producto.thumbnailUrl)
+        templateCard.querySelector('img').setAttribute("src", producto.url)
         templateCard.querySelector('.btn-dark').dataset.id = producto.id
 
         const clone = templateCard.cloneNode(true)
@@ -96,7 +99,7 @@ const pintarCarrito = () => {
 
     pintarFooter()
 
-    localStorage.setItem('carrito',JSON.stringify(carrito))
+    localStorage.setItem('carrito', JSON.stringify(carrito))
 }
 
 function pintarFooter() {
